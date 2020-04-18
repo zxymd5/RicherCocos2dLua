@@ -1,0 +1,42 @@
+#java
+*.class
+
+#package file
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+#maven ignore
+target/
+build/
+#cocos2d-js
+frameworks/
+runtime/
+.vscode/
+simulator/
+.settings/
+cocos/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#Intellij idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
